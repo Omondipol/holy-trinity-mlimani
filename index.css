@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #081120;
+  background-color: #f7f5f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(217, 183, 93, 0.14), transparent 28%),
+    #f7f5f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: -0.02em;
+}
+
+.gold-divider {
+  height: 2px;
+  width: 110px;
+  background: linear-gradient(90deg, rgba(217, 183, 93, 0) 0%, rgba(217, 183, 93, 1) 25%, rgba(217, 183, 93, 0.8) 50%, rgba(217, 183, 93, 0) 100%);
+  margin: 1rem 0 1.5rem;
+}
+
+.frosted {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dark-pattern {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
