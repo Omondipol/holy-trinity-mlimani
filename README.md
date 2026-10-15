@@ -1,20 +1,19 @@
 # Holy Trinity Mlimani Choir
 
-A creative, polished, and professional website for Holy Trinity Mlimani Choir.
+A polished, luxury church-brand website for Holy Trinity Mlimani Choir.
 
 ## Stack
 - Vite
 - React
 - TypeScript
-- Tailwind CSS
 
-## Local development
+## Run locally
 ```bash
 npm install
 npm run dev
 ```
 
-## Production build
+## Build
 ```bash
 npm run build
 ```
